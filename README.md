@@ -12,20 +12,40 @@ The objective is to build an interpretable and efficient predictive model that c
 * To evaluate model performance using standard metrics
 
 * To visualize decision rules for better interpretability
- # Dataset Overview
+# Methodology
 
-The dataset includes multiple features related to student background and academic behavior, such as:
+* Data Collection and Loading
 
-* Study Time
+* Data Preprocessing
 
-* Attendance
+      - Handling Missing Values
 
-* Previous Exam Scores
+      - Encoding Categorical Variables
 
-* Parental Education Level
+      - Feature Selection
 
-* Internet Access
+* Model Building
 
-* Extracurricular Activities
+      - Decision Tree Classifier
 
-* Target Variable: Student Performance (Pass/Fail or Grade Category)
+* Model Evaluation
+
+     - Accuracy Score
+
+    - Confusion Matrix
+
+    - Classification Report
+
+* Model Visualization
+# Key Insights
+
+* Study time and previous scores significantly influence performance
+
+* Attendance plays a critical role in prediction
+
+* Decision Tree provides clear decision boundaries
+# Future Scope
+
+* Deploy as a Web Application
+
+* Build an interactive dashboard using Power BI
